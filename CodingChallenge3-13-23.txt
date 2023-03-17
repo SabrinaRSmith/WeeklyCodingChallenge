@@ -1,0 +1,67 @@
+Java:
+
+Write a function that takes an integer minutes and converts it to seconds.
+
+ 
+
+Examples
+convert(5) ➞ 300
+
+ 
+
+convert(3) ➞ 180
+
+ 
+
+convert(2) ➞ 120
+
+public static int convert(int min){
+	return 60 * min;
+}
+
+ 
+C#:
+
+Create a function that takes two numbers as arguments and returns their sum.
+ 
+Examples
+Sum(3, 2) ➞ 5
+ 
+Sum(-3, -6) ➞ -9
+ 
+Sum(7, 3) ➞ 10
+
+public int Sum(int a, int b){
+	int sum = a + b;
+	return sum;
+}
+
+ 
+JS:
+
+Create a function that takes two numbers as arguments and returns their sum.
+ 
+Examples
+addition(3, 2) ➞ 5
+ 
+addition(-3, -6) ➞ -9
+ 
+addition(7, 3) ➞ 10
+
+function addition(a, b){
+	return a + b;
+}
+ 
+Python:
+
+Create a function that takes two numbers as arguments and returns their sum.
+ 
+Examples
+addition(3, 2) ➞ 5
+ 
+addition(-3, -6) ➞ -9
+ 
+addition(7, 3) ➞ 10
+
+def addition(a, b):
+	return a + b
